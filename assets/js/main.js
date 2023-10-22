@@ -58,6 +58,11 @@ function show() {
         headline.textContent = "LEO"
         explaination.textContent = "The issues you'll be dealing with today are very complicated ones—you will have to navigate your… "
     }else
+    if (userInput.value.toLowerCase() === "aug"){
+        cardDisplay.display = "block";
+        image.src = "https://www.horoscopedates.com/img/icon_virgo.png";
+        headline.textContent = "VIRGO"
+        explaination.textContent = "You'll get along best with people who appeal to your more analytical side, today. Surprisingly, all… "
     if (userInput.value.toLowerCase() === "sep"){
         cardDisplay.display = "block";
         image.src = "https://www.horoscopedates.com/img/icon_libra.png";
@@ -81,5 +86,6 @@ function show() {
         image.src = "https://www.horoscopedates.com/img/icon_capricorn.png";
         headline.textContent = "CAPRICORN"
         explaination.textContent = "Breaking the rules is not always a bad thing—especially if the rules limit your creativity."
-    } 
-}    
+        } 
+    }
+}
